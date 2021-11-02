@@ -19,7 +19,9 @@ Do the following:
 
    HINT: no function required
 */
+//  var votingAge = "18";
 
+//  console.log(votingAge(18))
 
 
 /*
@@ -33,7 +35,12 @@ Do the following:
    HINT: no function required
 */
 
+// var first = "12";
+// var second = "16";
 
+// first = "16";
+
+// console.log(first)
 
 
 
@@ -51,6 +58,8 @@ Do the following:
 
 
 
+
+
 /*
 Task 1d - Multiply
  
@@ -60,9 +69,12 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-  /*add your code here*/
-}
+// (a, b){
+//   a = 3;
+//   b = 10;
+// }
+
+// console.log(mu)
 
 
 
@@ -109,11 +121,25 @@ Puppies less than 1 year
 NOTE: If done correctly, a weight of 15 lbs and age of 1 year would return 0.44999999999999996
 */  
 
-function hungryDog(/*add your code here*/){
-  /*add your code here*/
+function hungryDog(weight, age){
+  if(age >= 1 && weight <= 5){
+    return weight * 0.05;
+  }else if(age >= 1 && weight >= 6 && weight <= 10){
+    return weight * 0.04;
+  }else if(age >= 1 && weight >= 11 && weight <= 15){
+    return weight * 0.03;
+  }else if(age >= 1 && weight > 15){
+    return weight * 0.02;
+  }else if(age < 1 && age >= 0.583){
+    return weight * 0.04;
+  }else if (age < 0.583 && age >= 0.333){
+    return weight * 0.05
+  }else if (age < 0.333){
+    return weight * 0.1
+  }
 }
 
-
+console.log('task 3', hungryDog(15, 1))
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
