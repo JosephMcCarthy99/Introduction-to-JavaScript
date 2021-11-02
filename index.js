@@ -19,9 +19,15 @@ Do the following:
 
    HINT: no function required
 */
-//  var votingAge = "18";
 
-//  console.log(votingAge(18))
+// const votingAge = 18;
+
+// if(votingAge >= 18){
+//   console.log(true);
+// }else{
+//   console.log(false);
+// }
+
 
 
 /*
@@ -35,14 +41,14 @@ Do the following:
    HINT: no function required
 */
 
-// var first = "12";
-// var second = "16";
+// let music = 'rock';
+// let volume = 'loud';
 
-// first = "16";
+// if(volume === 'loud'){
+//   music = 'rap'
+// }
 
-// console.log(first)
-
-
+// console.log(music);
 
 /*
 Task 1c - Convert Strings to Numbers
@@ -55,9 +61,8 @@ Do the following:
    HINT: look up the Number method
 */
 
-
-
-
+// const year = '1999';
+// console.log(Number(year));
 
 
 /*
@@ -68,15 +73,11 @@ Do the following:
    2. Receive the parameters: a and b
    3. Multiply a and b and return the answer
 */
+function multiply(a, b){
+  return a * b;
+}
 
-// (a, b){
-//   a = 3;
-//   b = 10;
-// }
-
-// console.log(mu)
-
-
+console.log(multiply(4, 5));
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -133,9 +134,9 @@ function hungryDog(weight, age){
   }else if(age < 1 && age >= 0.583){
     return weight * 0.04;
   }else if (age < 0.583 && age >= 0.333){
-    return weight * 0.05
+    return weight * 0.05;
   }else if (age < 0.333){
-    return weight * 0.1
+    return weight * 0.1;
   }
 }
 
